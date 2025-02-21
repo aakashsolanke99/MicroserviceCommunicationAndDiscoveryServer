@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class EmployeeAppConfig {
 
-    @Value("${addressservice.base.url}")
-    private String addressBaseURL;
+//    @Value("${addressservice.base.url}")
+//    private String addressBaseURL;
     @Bean
     public ModelMapper modelMapper(){
         return new ModelMapper();

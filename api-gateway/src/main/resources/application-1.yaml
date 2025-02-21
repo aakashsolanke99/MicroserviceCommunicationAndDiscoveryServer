@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+   port: 9090
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: gateway-service
+    description: "this is api gateway"
+    version: "1.0.1"

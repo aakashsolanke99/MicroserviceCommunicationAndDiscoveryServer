@@ -30,8 +30,8 @@ public class EmployeeService {
 //    @Autowired
 //    private WebClient  webClient;
 
-    @Autowired
-    private DiscoveryClient discoveryClient;
+//    @Autowired
+//    private DiscoveryClient discoveryClient;
 
 //    @Autowired
 //    private RestTemplate restTemplate;
@@ -88,6 +88,8 @@ public class EmployeeService {
 //                .bodyToMono(AddressResponse.class)
 //                .block();
 //    }
+
+
 
 //    private static AddressResponse callingAddessServiceUsingRESTTemplate(int id) {
 //        return restTemplate.getForObject("/getAddress/{id}", AddressResponse.class, id);
