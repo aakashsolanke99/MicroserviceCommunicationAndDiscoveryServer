@@ -1,5 +1,6 @@
 package com.aakash.newmployeeapp.response;
 
+
 public class AddressResponse {
 
     private int id;
@@ -10,6 +11,17 @@ public class AddressResponse {
 
     private String state;
     private String zip;
+
+    public AddressResponse() {
+    }
+
+    public AddressResponse(int id, String lane1, String lane2, String state, String zip) {
+        this.id = id;
+        this.lane1 = lane1;
+        this.lane2 = lane2;
+        this.state = state;
+        this.zip = zip;
+    }
 
     public int getId() {
         return id;
